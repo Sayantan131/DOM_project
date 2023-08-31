@@ -16,6 +16,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* position: relative; */
 }
 
 #container{
@@ -23,6 +24,7 @@ body{
     width: 350px;
     background-color: #fff;
     border-radius: 10px;
+    position: relative;
 }
 
 #container img{
@@ -30,4 +32,13 @@ body{
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+#container i{
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
 }
