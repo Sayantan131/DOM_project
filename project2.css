@@ -40,5 +40,7 @@ body{
     position: absolute;
     top: 55%;
     left: 50%;
+    opacity: 0;
     transform: translate(-50%,-50%) scale(0);
+    transition: transform ease 1s;
 }
