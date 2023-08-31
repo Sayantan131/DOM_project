@@ -7,7 +7,7 @@ con.addEventListener("dblclick",function(){
     setTimeout(function(){
         icon.style.transform =  "translate(-50%,-50%) scale(0)";
         icon.style.opacity = "0";
-    },2000)
+    },1500)
 })
 
 
