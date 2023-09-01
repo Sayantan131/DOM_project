@@ -26,8 +26,18 @@ html,body
    display: flex;
    align-items:center;
    justify-content: flex-start;
+   position: relative;
 }
 
 .elem h1{
     font-size: 6vw;
+}
+
+.elem img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
 }
