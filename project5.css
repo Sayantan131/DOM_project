@@ -26,12 +26,29 @@ body{
 #storiyan{
     height: 120px;
     width: 100%;
-    background-color: red;
+    border-bottom: 3px solid #dadadd;
+    padding: 20px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#storiyan::-webkit-scrollbar{
+    display: none;
 }
 
 .story{
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    background-color: blue;
+    border: 2px solid red;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
 }
