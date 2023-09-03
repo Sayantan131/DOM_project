@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(91, 215, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    height: 480px;
+    width: 330px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+#storiyan{
+    height: 120px;
+    width: 100%;
+    background-color: red;
+}
+
+.story{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: blue;
+}
