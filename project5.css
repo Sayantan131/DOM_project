@@ -17,10 +17,12 @@ body{
 
 #card{
     height: 480px;
-    width: 330px;
+    width: 300px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 15px;
+    overflow: hidden;
     border: 3px solid black;
+    position: relative;
 }
 
 #storiyan{
@@ -53,4 +55,13 @@ body{
     object-fit: cover;
     object-position: center;
     
+}
+
+#full-screen{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: none;
 }
