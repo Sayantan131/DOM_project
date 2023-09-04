@@ -31,6 +31,7 @@ body{
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
+   
 }
 #storiyan::-webkit-scrollbar{
     display: none;
@@ -43,6 +44,7 @@ body{
     border: 2px solid red;
     display: inline-block;
     overflow: hidden;
+    margin-right: 5px;
 }
 
 .story img{
